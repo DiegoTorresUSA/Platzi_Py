@@ -5,3 +5,5 @@ def imprimir_mensaje():
 
 imprimir_mensaje()
 imprimir_mensaje()
+
+print([1,2,4,5]+ [3,6])
