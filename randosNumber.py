@@ -1,5 +1,6 @@
 import random
 
+# listas = [], tuplas = (), diccionarios = {}
 
 def run():
     num_adivina = random.randint(1, 100)

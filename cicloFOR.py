@@ -15,4 +15,5 @@
 a = list(range(1,11))
 print(a)
 
+print(10 / 2 + 5 * 7)
 
