@@ -18,13 +18,21 @@ def palindromo(string):
     else:
         return False
 
+
 def run():
-    string = input("Digita la palabra: ")
+    string = str(input("Digita la palabra: "))
+    while string == "":
+        print("La cadena no puede estar vacia")
+        string = str(input("Digita la palabra: "))
+        while string.isalnum():
+            print("Debes escribir una cadena de caracteres")
+            string = str(input("Digita la palabra: "))
     es_palindromo = palindromo(string)
     if es_palindromo == True:
         print("Es palíndromo")
     else:
         print("No es palíndromo")
+
 
 
 if __name__ == '__main__':
